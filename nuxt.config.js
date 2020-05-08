@@ -1,4 +1,3 @@
-
 export default {
   mode: 'universal',
   /*
@@ -34,6 +33,7 @@ export default {
   */
   buildModules: [
     '@nuxt/typescript-build',
+    '@nuxtjs/pwa',
   ],
   /*
   ** Nuxt.js modules
